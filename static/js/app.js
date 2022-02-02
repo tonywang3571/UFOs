@@ -43,11 +43,11 @@ function buildTable(data) {
         buildTable(filteredData);
     };
 
-
     // Attach an event to listen for the form button
     d3.selectAll("#filter-btn").on("click", handleClick);
 
-    // Build the table when the page loads
-    buildTable(tableData);
-
 }
+
+// Build the table when the page loads
+buildTable(tableData);
+
