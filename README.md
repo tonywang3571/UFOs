@@ -6,7 +6,7 @@
 The purpose of this project is to create a dynamic webpage with javascript, html, css, and bootstrap to filter through a dataset of UFO sightings based on the filters applied by user input.  
 
 ## Resources:  
-- Data Source: Provided [Data](ZZZZZ), [Image](ZZZZZ)
+- Data Source: Provided [Data](https://github.com/tonywang3571/UFOs/blob/master/static/js/data.js), [Image](https://github.com/tonywang3571/UFOs/blob/master/static/images/nasa.jpg)
 - Software: VS code 1.63.2 (Javascript, HTML, CSS, Bootstrap)
 
 ## Analysis and Results  
@@ -28,6 +28,7 @@ ZZZZZ<img src="Resources/webpage3.PNG">
 
 ### Codes Used  
 (Please look at specific files for codes used)   
-Code for [building data table and filters](ZZZZZ)  
-Code for [building webpage](ZZZZZ)  
+Code for [building data table and filters](https://github.com/tonywang3571/UFOs/blob/master/static/js/app.js)  
+Code for [building webpage](https://github.com/tonywang3571/UFOs/blob/master/index.html)  
+Code for [styling webpage](https://github.com/tonywang3571/UFOs/blob/master/static/css/style.css)
 
