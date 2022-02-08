@@ -119,8 +119,32 @@
             </div>
         </div>
     </div>
+    <!-- Create button to "Go to top" -->
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="static/js/data.js"></script>
     <script src="static/js/app.js"></script>
+    <script>
+        // Get the button
+        var topbutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 40px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                topbutton.style.display = "block";
+            } else {
+                topbutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>
